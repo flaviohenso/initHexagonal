@@ -3,7 +3,6 @@ package br.com.bank.hexagonal.aplication.service;
 import java.math.BigDecimal;
 import java.util.NoSuchElementException;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.bank.hexagonal.aplication.domain.BankAccount;
@@ -25,7 +24,7 @@ public class BankAccountService implements DepositUseCase, WithdrawUseCase {
      * @param loadAccountPort the port for loading bank accounts
      * @param saveAccountPort the port for saving bank accounts
      */
-    @Autowired
+    
     public BankAccountService(LoadAccountPort loadAccountPort, SaveAccountPort saveAccountPort) {
         this.loadAccountPort = loadAccountPort;
         this.saveAccountPort = saveAccountPort;

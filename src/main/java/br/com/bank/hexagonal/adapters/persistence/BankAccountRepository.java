@@ -1,6 +1,5 @@
 package br.com.bank.hexagonal.adapters.persistence;
 
-import java.math.BigDecimal;
 import java.util.Optional;
 
 import org.springframework.stereotype.Component;

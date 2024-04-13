@@ -2,7 +2,6 @@ package br.com.bank.hexagonal.adapters.web;
 
 import java.math.BigDecimal;
 
-import org.apache.catalina.connector.Response;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
